@@ -1,0 +1,95 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    background-color: #c4bdbd;
+}
+
+h1 {
+  
+    padding: 50px 250px 50px 50px;
+    text-align: center;
+    color: wheat;
+    text-align: center;
+}
+h2, h4{
+    text-align: center;
+    color: rgb(0, 47, 255);
+}
+
+.topnav{
+    background-color:  rgb(255, 0, 140);
+    color: aliceblue;"
+
+}
+/* menu style*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #084285;
+  color: orange;
+}
+footer{
+    background-color: rgb(255, 0, 140);
+    text-align: center;
+    color: rgb(236, 231, 231);
+}
+.gallery{
+    display: flex;
+  background-color: rgb(245, 247, 248);
+}
+.gallery div{
+   margin: 10px;
+  padding: 20px;
+ 
+}
+.contact{
+    display: flex;
+  background-color: rgb(245, 247, 248);
+}
+.contact div{
+  margin: 10px;
+  padding: 20px;
+
+}
+.about{
+       display: flex;
+  background-color: rgb(128, 207, 247); 
+}
+.about div{
+   margin: 10px;
+  padding: 20px;
+  
+}
+
+div.tablecontainer {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
